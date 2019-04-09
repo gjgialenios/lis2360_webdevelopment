@@ -13,7 +13,7 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.2em;
-	color: #CCCCCC;
+	color: #093B40;
 }
 h1 {
 	font-size: 31px;
@@ -44,16 +44,16 @@ h3 {
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #88DEE0;
+	color: #093B40;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #88DEE0;
+	color: #2F4F4F;
 	text-decoration: none;
 }
 a:hover {
-	color: #88DEE0;
+	color: #2F4F4F;
 }
 
 /* list styles ----------------------------- */
@@ -95,4 +95,57 @@ iframe {
 	border: solid #00A5B1 2px;
 	padding: 8px;
 	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+
+#container { 
+	width: 975px; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #C0C0C0;
+	border-bottom: 2px solid #800000;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #00A5B1;
+	border: 1px solid #093B40;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #C0C0C0;
+	padding-left:15px;
+	padding-right: 15px;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #EEE;
+	border-top: 1px solid #00A5B1;
+	padding-left: 10px;
+	padding-right: 10px
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
 }
