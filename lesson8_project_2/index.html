@@ -1,0 +1,279 @@
+ 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    
+    <style>
+      .navbar-inverse{
+        background-color:#2F4F4F;
+        border-color:#F0F8FF;
+        }
+        .navbar-inverse
+        .navbar-nav > li > a {
+          color:#E0E0E0;
+        }
+        .navbar-inverse .navbar-brand {
+          color:#E0E0E0;
+        }
+        @media (min-width: 768px){            
+        .navbar-wrapper .navbar {          
+          border-radius: 5px;
+        }
+        .navbar-wrapper {                   
+          margin-top: 15px;
+        }
+      }
+      .carousel-inner > .item > img {
+        height: auto;                       
+      }
+       @media (max-width: 899px){
+        .carousel {                         
+          height: 400px;
+        }
+        .carousel .item {
+          height: 400px;
+          background-color: #FFF;
+        }
+       }
+       @media (max-width: 719px){           
+          .carousel-inner > .item > img {   
+            width: 719px;
+            max-width: 719px;
+            height: 400px;
+          }
+       }
+      
+       .btn-primary {
+          color: #fff;                  
+          background-color:#2F4F4F;        
+          border-color: #F0F8FF;
+        }
+        .btn-primary:hover {  
+		   color: #fff;                 
+          background-color: #000000;        
+          border-color: #000000;
+		   }
+        
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Social Media</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Get Connected</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Projects <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Past Clients</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Our Social Media</li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Gialenios Media Consulting</h1>
+              <p>Social Media Marketing made easy for new start up bussinesses trying gain a consistent following. We aim to start conversations through authentic content</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Get Connected Now! </a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Social Media Made Easy</h1>
+              <p>We provide you with the tools to boost your exposure on all social media platforms. Let us show you how it's done!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Get Connected Now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="3.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why Do You Need Social Media?</h1>
+              <p>Research shows that companies that use social media grow twice as fast as companies that do not. We want to help ypu grow and create lasting relationships with your customers!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Get Connected Now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="4.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why We Want You</h1>
+              <p>We strive to create authentic relations with customers through engaging content. Every process is personal to the client. We want to hear from you on why you think your company is unique!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Get Connected Now!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="5.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Twitter</h2>
+          <p>Twitter is one of the most used app in 2019. Whether it be daily announcements or fun photos. Exposure through twitter is essential to customer interaction.</p>
+          <p><a class="btn btn-default" href="#" role="button">Let's Start a Tweet! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="6.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Snapchat</h2>
+          <p>Short, simple and sweet. Snapchat gives customers a blimp into your behind the scenes. Make snaps engaging and fun! This is a way to be easily relatable and entertaining to customers.</p>
+          <p><a class="btn btn-default" href="#" role="button">Let's Take a Snap! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="7.jpg" width="140" height="140">
+          <h2>Instagram</h2>
+          <p>Instagram will be your biggest asset in growth. Through stories and posts you will be able to build the "brand" of your company. Whether through page aesthetics or intentional graphics strategic branding is so important to the success of a company.</p>
+          <p><a class="btn btn-default" href="#" role="button">Let's Create a Post! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Mellennials Take Over. <span class="text-muted">The Age of Social Media</span></h2>
+          <p class="lead">On avergae millennials check their phone 20-30 times perday. An of those 20-30 times they can spend up to 8 hours scrolling through social media feeds. Whether it be through instagram sponsored posts or promoted content by your favorite influencer, goodbye are the ways of mainstream advertisments. A new age of marketing has emerged and its name is Social Media. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="8.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">What Does it Mean to be an Influencer? <span class="text-muted">Social Media Dissected</span></h2>
+          <p class="lead">To be in an influencer in 2019 means that you have some sort of following. It is not defined by an exact number but to be an influencer you need to be able to influence. Influencer's often have nice followings whether that be fitness, healthy living, beauty or even DIY videos, the way influencer initially gain following is targeting a direct group.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="9.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Why Your Company Needs Social Media.<span class="text-muted">Real Talk.</span></h2>
+          <p class="lead">You need us for this simple reason. Exposure. We expose you to the realm of social media and all its facets. Whether that be through instagram, twitter, youtube, blogs, or even facebook. We walk you through all the steps to gain a consistent and authentic following. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="10.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2019 Gabrielle Gialenios &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    
+    <script src="js/holder.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
